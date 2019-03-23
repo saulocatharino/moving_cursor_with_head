@@ -76,6 +76,8 @@ def main():
                 for faces in face_rects:
                     shape = predictor(frame, faces)
                     shape = face_utils.shape_to_np(shape)
+                    for (x, y) in shape:
+                        cv2.circle(frame, (x, y), 1, (255, 0, 255), -1)
                     leftEye = shape[lStart:lEnd]
                     rightEye = shape[rStart:rEnd]
                     leftEAR = eye_aspect_ratio(leftEye)
