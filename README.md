@@ -1,4 +1,4 @@
-# head_moving_cursor
+# MOVIMENTE O MOUSE USANDO A CABEÇA
 Use os movimentos da cabeça para movimentar o mouse.
 
 
