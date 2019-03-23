@@ -49,7 +49,7 @@ def eye_aspect_ratio(eye):
 def draw_circle(event, xxx,yyy,flags, param):
     ax.set_ylim(0, frame.shape[0])
     ax.set_xlim(0, frame.shape[1])
-	    ax.scatter(xxx,frame.shape[0]-yyy, alpha=0.5, color = "black")
+    ax.scatter(xxx,frame.shape[0]-yyy, alpha=0.5, color = "black")
 
 
 def main():
