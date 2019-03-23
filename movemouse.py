@@ -92,6 +92,7 @@ def main():
                     Y = -euler_angle[1, 0]
                     if ear < EYE_AR_THRESH:
                         ax.clear()
+			pyautogui.click()
 
                     if  float(X) > tresh_head:
                         pyautogui.moveRel(0,1 * int(X))
